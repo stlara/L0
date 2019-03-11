@@ -1,0 +1,284 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red47\green180\blue29;
+\red180\green36\blue25;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;\cssrgb\c20238\c73898\c14947;
+\cssrgb\c76409\c21698\c12524;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 Last login: Mon Mar 11 15:49:22 on ttys000\
+MacBook-Pro-de-macbook-6:~ macbook$ cd Desktop/\
+MacBook-Pro-de-macbook-6:Desktop macbook$ git clone http://github.com/IIC2115/Syllabus\
+Cloning into 'Syllabus'...\
+warning: redirecting to https://github.com/IIC2115/Syllabus/\
+remote: Enumerating objects: 46, done.\
+remote: Counting objects: 100% (46/46), done.\
+remote: Compressing objects: 100% (35/35), done.\
+remote: Total 46 (delta 6), reused 46 (delta 6), pack-reused 0\
+Unpacking objects: 100% (46/46), done.\
+MacBook-Pro-de-macbook-6:Desktop macbook$ git clone http://github.com/stlara/L0\
+Cloning into 'L0'...\
+warning: redirecting to https://github.com/stlara/L0/\
+warning: You appear to have cloned an empty repository.\
+MacBook-Pro-de-macbook-6:Desktop macbook$ cd L0/\
+MacBook-Pro-de-macbook-6:L0 macbook$ git add *\
+MacBook-Pro-de-macbook-6:L0 macbook$ git commit -m"Archivo de texto"\
+[master (root-commit) 909102f] Archivo de texto\
+ Committer: Sergio Lara <macbook@MacBook-Pro-de-macbook-6.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly. Run the\
+following command and follow the instructions in your editor to edit\
+your configuration file:\
+\
+    git config --global --edit\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 6 insertions(+)\
+ create mode 100644 Archivo texto.txt\
+MacBook-Pro-de-macbook-6:L0 macbook$ git push\
+warning: redirecting to https://github.com/stlara/L0/\
+Counting objects: 3, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0)\
+To http://github.com/stlara/L0\
+ * [new branch]      master -> master\
+MacBook-Pro-de-macbook-6:L0 macbook$ git pull\
+warning: redirecting to https://github.com/stlara/L0/\
+remote: Enumerating objects: 5, done.\
+remote: Counting objects: 100% (5/5), done.\
+remote: Compressing objects: 100% (1/1), done.\
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\
+Unpacking objects: 100% (3/3), done.\
+From http://github.com/stlara/L0\
+   909102f..b021208  master     -> origin/master\
+Updating 909102f..b021208\
+Fast-forward\
+ Archivo texto.txt | 7 \cf4 +\cf5 ------\cf2 \
+ 1 file changed, 1 insertion(+), 6 deletions(-)\
+MacBook-Pro-de-macbook-6:L0 macbook$ history\
+    1  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\
+    2  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"\
+    3  brew install biogeme\
+    4  /Users/macbook/Downloads/brackets-runscript-master/LICENSE ; exit;\
+    5  /Users/macbook/Desktop/Tarea\\ copia.py \
+    6  python3_Tareacopia.py\
+    7  /Users/macbook/Desktop/Tarea\\ copia.py \
+    8  Tarea.py\
+    9  Python3_Tarea.py\
+   10  cd Desktop\
+   11  python Tarea.py\
+   12  cd Desktop\
+   13  python Tarea.py\
+   14  cd Desktop\
+   15  python3 Tarea.py\
+   16  python3 Tarea.py\
+   17  python tarea.py\
+   18  cd Desktop\
+   19  python3 Tarea.py\
+   20  arcos(l,C)\
+   21  python3 Tarea.py\
+   22  python3 Tarea.py\
+   23  costos(l,C)\
+   24  python3 Tarea.py\
+   25  cd Desktop\
+   26  python3 Tarea.py\
+   27  python3 Tarea.py\
+   28  cd Desktop\
+   29  python3 Tarea.py\
+   30  python3 Tarea.py\
+   31  python3 Tarea.py\
+   32  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"\
+   33  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   34  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   35  /Users/macbook/Downloads/mac/libbiogeme.dylib ; exit;\
+   36  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   37  /Users/macbook/Downloads/Biogeme/winbiogeme ; exit;\
+   38  cd Desktop\
+   39  python3 Hastagp.py\
+   40  break\
+   41  python3 Hastagp.py\
+   42  3\
+   43  python3 Hastagp.py\
+   44  python 2 Hastagp.py\
+   45  cd Desktop\
+   46  python 3 Hastag.py\
+   47  python3 Hastagp.py\
+   48  python3 Hastagp.py\
+   49  cd Desktop\
+   50  python3 Hastagp.py\
+   51  python3 Hastagp.py\
+   52  cd Desktop\
+   53  python3 123.py\
+   54  cd Desktop\
+   55  python3 123.py\
+   56  python2 123.py\
+   57  python3 123.py\
+   58  /Users/macbook/Desktop/2017-1/Modelos\\ de\\ demanda\\ de\\ transporte/Taller\\ 2/Biogeme/winbiogeme ; exit;\
+   59  /Users/macbook/Desktop/2017-1/Modelos\\ de\\ demanda\\ de\\ transporte/Taller\\ 2/Biogeme/winbiogeme ; exit;\
+   60  /Users/macbook/Desktop/2017-1/Modelos\\ de\\ demanda\\ de\\ transporte/Taller\\ 2/Biogeme/winbiogeme ; exit;\
+   61  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   62  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   63  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   64  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   65  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   66  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   67  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   68  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   69  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   70  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   71  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   72  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   73  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   74  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   75  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   76  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   77  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   78  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   79  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   80  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   81  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   82  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   83  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   84  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   85  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   86  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   87  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   88  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   89  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   90  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   91  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   92  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   93  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   94  /Users/macbook/Desktop/Taller\\ 2/winbiogeme ; exit;\
+   95  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   96  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   97  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   98  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+   99  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  100  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  101  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  102  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  103  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  104  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  105  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  106  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  107  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  108  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  109  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  110  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  111  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  112  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  113  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  114  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  115  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  116  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  117  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  118  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  119  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  120  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  121  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  122  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  123  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  124  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  125  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  126  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  127  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  128  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  129  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia ; exit;\
+  130  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia ; exit;\
+  131  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia ; exit;\
+  132  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia ; exit;\
+  133  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo\\ 2/winbiogeme\\ copia ; exit;\
+  134  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo\\ 2/winbiogeme\\ copia ; exit;\
+  135  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo\\ 2/winbiogeme\\ copia ; exit;\
+  136  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo\\ 2/winbiogeme\\ copia ; exit;\
+  137  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo\\ 2/winbiogeme\\ copia ; exit;\
+  138  /Users/macbook/Desktop/Destino/winbiogeme\\ copia ; exit;\
+  139  /Users/macbook/Desktop/Destino/winbiogeme\\ copia ; exit;\
+  140  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  141  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  142  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  143  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  144  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  145  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  146  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  147  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  148  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  149  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  150  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  151  /Users/macbook/Desktop/carpeta\\ sin\\ t\'edtulo/winbiogeme\\ copia\\ 2 ; exit;\
+  152  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  153  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  154  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  155  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  156  /Users/macbook/Desktop/MODO/winbiogeme\\ copia ; exit;\
+  157  /Users/macbook/Desktop/MODO\\ copia/winbiogeme\\ copia ; exit;\
+  158  /Users/macbook/Desktop/MODO\\ copia/winbiogeme\\ copia ; exit;\
+  159  /Users/macbook/Desktop/Destino/winbiogeme\\ copia ; exit;\
+  160  /Users/macbook/Desktop/Destino\\ copia/winbiogeme\\ copia ; exit;\
+  161  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  162  /Users/macbook/Desktop/Destino\\ copia/winbiogeme\\ copia ; exit;\
+  163  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  164  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  165  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  166  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  167  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  168  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  169  /Users/macbook/Downloads/mac/winbiogeme ; exit;\
+  170  /Users/macbook/Desktop/AAAAA/winbiogeme\\ copia\\ 2 ; exit;\
+  171  /Users/macbook/Desktop/AAAAA/winbiogeme\\ copia\\ 2 ; exit;\
+  172  /Users/macbook/Desktop/AAAAA/winbiogeme\\ copia\\ 2 ; exit;\
+  173  /Users/macbook/Desktop/Destino/winbiogeme\\ copia ; exit;\
+  174  /Users/macbook/Desktop/AAAA/winbiogeme\\ copia ; exit;\
+  175  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  176  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  177  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  178  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  179  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  180  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  181  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  182  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  183  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  184  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  185  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  186  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  187  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  188  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  189  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  190  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  191  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  192  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  193  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  194  /Users/macbook/Desktop/AATASA/winbiogeme\\ copia ; exit;\
+  195  /Users/macbook/Desktop/Tasa/winbiogeme\\ copia ; exit;\
+  196  python --version\
+  197  Python3\
+  198  exec gurobi.sh\
+  199  exec gurobi.sh\
+  200  exec gurobi.sh\
+  201  exec gurobi.sh\
+  202  exec gurobi.sh\
+  203  /Applications/Gurobi\\ 8.1.0.app/Contents/MacOS/Gurobi\\ Interactive\\ Shell ; exit;\
+  204  /Applications/Python\\ 2.7/Update\\ Shell\\ Profile.command ; exit;\
+  205  /usr/bin/python\
+  206  git clone http://github.com/ICC2115/Syllabus\
+  207  cd\
+  208  cd Desktop/\
+  209  git clone http://github.com/ICC2115/Syllabus\
+  210  cd Desktop/\
+  211  git clone http://github.com/IIC2115/Syllabus\
+  212  git clone http://github.com/stlara/L0\
+  213  cd L0/\
+  214  git add *\
+  215  git commit -m"Archivo de texto"\
+  216  git push\
+  217  git pull\
+  218  history\
+MacBook-Pro-de-macbook-6:L0 macbook$ }
